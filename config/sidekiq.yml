@@ -1,0 +1,4 @@
+:schedule:
+  hard_worker:
+    every: 10m
+    class: HardWorker
