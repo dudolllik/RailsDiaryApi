@@ -1,0 +1,2 @@
+CREATE USER dudolllik;
+ALTER USER dudolllik WITH SUPERUSER;

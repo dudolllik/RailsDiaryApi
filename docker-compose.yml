@@ -1,4 +1,13 @@
-postgres: 
-  image: postgres
-  ports: 
-    - 5432:5432
+version: '3.4'
+
+services:
+
+  database:
+    image: postgres:12.1
+
+  redis:
+    image: redis:5.0.7
+    ports:
+      - "6380:6389"
+    volumes:
+      - "redis"
